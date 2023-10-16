@@ -84,3 +84,5 @@ submission = t.join(submission1.iloc[:, 3000:])
 submission.index.name = 'id'
 
 submission.to_csv('submission.csv')
+
+print(',,,')
